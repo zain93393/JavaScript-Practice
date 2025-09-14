@@ -1,0 +1,45 @@
+.Heading{
+    text-align: center;
+}
+
+.button {
+    display: inline-block; /* span can now have width & height */
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 1px;
+   
+    cursor: pointer;
+    margin:30px ;
+}
+
+.button-flex{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#disclaimer{
+    display: block; 
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#color-1
+{
+    background-color: red;
+}
+#color-2
+{
+    background-color: yellow;
+}
+#color-3
+{
+    background-color: green;
+}
+#color-4
+{
+    background-color: blue;
+}
