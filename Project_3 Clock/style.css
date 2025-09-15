@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(138, 69, 69);
+}
+
+#clock-outer{
+    width: 250px;
+    height: 80px;
+    background-color: rgb(180, 180, 41);
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h3{
+    color: white;
+}
+
+#time{
+    display: inline;
+    
+    font-size: 40px;
+}
