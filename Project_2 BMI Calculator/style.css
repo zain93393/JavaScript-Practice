@@ -44,3 +44,15 @@ input{
     justify-content: center;
 
 }
+
+.Answer{
+
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+}
+#Answer {
+  display: inline-block;   /* so we can set width */
+  width: 120px;            /* fixed space reserved */
+  text-align: left;        /* or center, up to you */
+}
